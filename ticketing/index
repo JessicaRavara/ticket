@@ -1,0 +1,18 @@
+CREATE DATABASE ticket;
+
+
+USE ticket;
+
+
+CREATE TABLE ticket (
+
+ id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+
+ title VARCHAR(30) NOT NULL,
+
+ description VARCHAR(255),
+
+date_opened DATE
+ticket_open INT(1) DEFAULT 1
+
+);

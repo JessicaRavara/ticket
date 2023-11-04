@@ -1,0 +1,42 @@
+<html>
+
+<body>
+
+
+    <h2>Inserisci un nuovo ticket</h2>
+
+
+    <form action="/submit_ticket.php" method="post">
+
+        
+        
+        <label for="title">Ticket Title:</label><br>
+        <input type="text" name="title">
+        <br>
+
+          
+        <label for="description">Ticket Description:</label><br>
+        <textarea name="description"></textarea>
+        <br>
+
+
+        <label for="date_opened">Data di apertura</label><br>
+        <input type="date" name="date_opened" value="<?php echo date('Y-m-d'); ?>">
+        <br>
+
+        <label for="status">Stato:</label><br>
+        <select name="status">
+            <option value="open">Open</option>
+            <option value="closed">Closed</option>
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+
+</body>
+
+</html>
