@@ -1,0 +1,7 @@
+Tempistiche realizzazione esercizi - Week 1
+
+Esercizi in Codewar: 2 ore totali
+Form: 45 minuti (problemi con xampp)
+Random: 45 minuti
+Leggere/scrivere file: 15 minuti
+Mail: 15 minuti
